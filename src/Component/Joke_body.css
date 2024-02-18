@@ -1,0 +1,44 @@
+.body {
+    border: 2px solid rgb(72, 0, 255);
+    width: 400px;
+    height: auto;
+    padding: 1rem;
+
+}
+
+.body:hover {
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.41);
+    transition: all 1s ease-in;
+
+}
+
+.body>div {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+
+button {
+    padding: 0.7rem;
+    margin: 1rem 0rem;
+    cursor: pointer;
+    background-color: rgb(86, 84, 254);
+    color: white;
+    border-radius: 7px;
+    width: 7rem;
+
+}
+
+button:hover {
+    background-color: rgb(102, 102, 254);
+}
+
+
+
+.jokeno {
+    font-weight: bold;
+}
